@@ -438,7 +438,7 @@ read_val (const char* s, int* vptr, int bits)
 	v = strtol (s, &trash, 10);
     }
     if (v >= 0x8000)
-        v |= 0xFFFF0000;
+        v -= 0x10000;
     if (v < -(1L << (bits - 1)) || v >= (1L << bits)) {
 	fprintf (stderr, "%3d: constant outside of allowed range\n", line_num);
 	num_errors++;

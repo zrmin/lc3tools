@@ -54,8 +54,8 @@ BUTTON_FONT = __BUTTON_FONT__
 CONSOLE_FONT = __CONSOLE_FONT__
 # End of configuration block.
 
-CFLAGS  = -g -Wall -m32
-LDFLAGS = -g -m32
+CFLAGS  = -g -Wall
+LDFLAGS = -g
 LC3AS   = ./lc3as
 
 ALL: dist_lc3as dist_lc3convert dist_lc3sim dist_lc3sim-tk
