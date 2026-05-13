@@ -34,7 +34,7 @@
  *		Started paring down lc3as code.
  */
 
-%option noyywrap nounput
+%option noyywrap nounput noinput
 
 %{
 

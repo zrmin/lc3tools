@@ -36,7 +36,7 @@
  *
  */
 
-%option noyywrap nounput
+%option noyywrap nounput noinput
 
 %{
 
